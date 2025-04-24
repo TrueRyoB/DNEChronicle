@@ -1,8 +1,19 @@
+/*
+ * Copyright (c) DeepNapEngine
+ * https://github.com/TrueRyoB
+ */
 using UnityEngine;
+using System;
+using System.Collections;
+using System.Collections.Generic
 
-    #ROOTNAMESPACEBEGIN#
-public class #SCRIPTNAME#
-{
-    #NOTRIM#
+#ROOTNAMESPACEBEGIN#
+    /// <summary>
+    /// 
+    /// </summary>
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+
+    }
 }
 #ROOTNAMESPACEEND#
