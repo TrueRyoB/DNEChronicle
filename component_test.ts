@@ -11,3 +11,16 @@ describe('TitleComponent', () => {
       expect(element.querySelector('h1')?.textContent).toContain('My Applciation');
     });
 });
+
+describe('TitleComponent', () => {
+    it('should render application title as <h1>', async () => {
+        await TestBed.configureTestingModule({
+            imports: [TitleComponent],
+        }).compileComponents();
+
+        const fixture = TestBed.createComponent(TitleComponent);
+        const element = fixture.nativeElement as HTMLElement;
+
+        expect(element.querySelector('h1')?.textContent).toContain('My App');
+    }
+});
