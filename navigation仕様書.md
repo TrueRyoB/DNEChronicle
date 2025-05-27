@@ -16,3 +16,29 @@
 - [ ] modal　drag&dropできるようにする
 - [ ] 画面外選択で警告光発するようにする
 - [ ] .question.active時に上にズレるバグを治す
+
+
+仕様
+~~~html
+<header>
+  <div class="modal-header">
+    <span><!--insert text here--></span><button class="close-modal">X</button>
+  </div>
+  <div class ="modal-bar">
+    <div class="modal-nav active"> 
+      <div class="task-container">
+        <span class="task">活動pt 進捗</span>
+      </div>
+      <span class="period">1/27 - 2/23</span>
+    </div>
+    <span class="right-arrow">></span>
+  </div>
+</header>
+
+<!--header以外を指す　これも1モーダルにあたり、1つのみ-->
+<div class="modal-body">
+  <div class="section-container">
+  </div>
+</div>
+
+~~~
