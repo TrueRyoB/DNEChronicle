@@ -18,24 +18,30 @@
 - [ ] .question.active時に上にズレるバグを治す
 
 
-仕様
+### 仕様
 ~~~html
 <header>
   <div class="modal-header">
     <span><!--insert text here--></span><button class="close-modal">X</button>
   </div>
   <div class ="modal-bar">
-    <div class="modal-nav active"> 
+    <!--create more of "task-container" (and span.right-arrow between them) within "modal-bar" in need-->
+    <div class="modal-nav active">
       <div class="task-container">
-        <span class="task">活動pt 進捗</span>
+        <span class="task"><!--insert text here--></span>
       </div>
-      <span class="period">1/27 - 2/23</span>
+      <span class="period"><!--insert text here--></span>
     </div>
-    <span class="right-arrow">></span>
+    <span class="right-arrow"></span>
+    <div class="modal-nav active">
+      <div class="task-container">
+        <span class="task"><!--insert text here--></span>
+      </div>
+      <span class="period"><!--insert text here--></span>
+    </div>
   </div>
 </header>
 
-<!--header以外を指す　これも1モーダルにあたり、1つのみ-->
 <div class="modal-body">
   <div class="section-container">
   </div>
