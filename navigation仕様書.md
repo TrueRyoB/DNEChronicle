@@ -44,6 +44,24 @@
 
 <div class="modal-body">
   <div class="section-container">
+    <div class="instruction"><span class="index"><!--insert text here--></span><span><!--insert text here--></span></div>
+    <span class="down-arrow"></span>
+    <div class="instruction"><span class="index"><!--insert text here--></span><span><!--insert text here--></span></div>
+  </div>
+  <div class="section-container">
+    <div class="q-and-a">
+      <div class="question">
+        <span class="left">
+          <span class="index">Q</span><span class="context"><!--insert text here--></span><span><!--insert text here--></span>
+        </span>
+        <div class="toggle-container"><span class = "toggle-indicator"></span></div>
+      </div>
+      <div class="answers hide">
+        <div class="answer">
+          <span class="index">A</span><span class="context"><!--insert text here--></span><span><!--insert text here--></span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
