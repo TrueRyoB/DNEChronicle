@@ -33,8 +33,8 @@
       <span class="period"><!--insert text here--></span>
     </div>
     <span class="right-arrow"></span>
-    <div class="modal-nav active">
-      <div class="task-container">
+    <div class="modal-nav">
+      <div class="task-container"> <!--max of one element tagged as task-container should be set active simultaneously-->
         <span class="task"><!--insert text here--></span>
       </div>
       <span class="period"><!--insert text here--></span>
