@@ -1,0 +1,8 @@
+.awaken {
+    border-radius: 8px;
+    width: 100%;
+    flex: 0 0 auto;
+    aspect-ratio: 1;
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    rotate: 0deg;
+}
